@@ -9,3 +9,10 @@ You need to download resource files from [here(800+MB)](http://anatomy.dongguk.a
 
 1. Download the file above.
 2. Unzip to /sdcard/VKH/Browsing Software.
+
+Then the directory tree should be:
+
+    /sdcard/VKH/Browsing software
+    /sdcard/VKH/Browsing software/Sectioned images
+    /sdcard/VKH/Browsing software/Segmented images
+
