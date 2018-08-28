@@ -16,3 +16,4 @@ Then the directory tree should be:
     /sdcard/VKH/Browsing software/Sectioned images
     /sdcard/VKH/Browsing software/Segmented images
 
+Now you're ready to use this software.
