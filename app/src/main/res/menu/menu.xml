@@ -1,0 +1,54 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+	<item android:title="Subject">
+        <menu>
+            <group android:id="@+id/single_group"
+				android:checkableBehavior="single">
+                <item android:id="@+id/item_male"
+					android:title="@string/item_male"
+					/>
+                <item android:id="@+id/item_female"
+					android:title="@string/item_female" />
+                <item android:id="@+id/item_male_head"
+					android:title="@string/item_male_head"
+					 />
+				<item android:id="@+id/item_female_pelvis"
+					android:title="@string/item_female_pelvis"
+					 />
+            </group>
+        </menu>
+    </item>
+	<item
+
+		android:id="@+id/threeD"
+
+		android:orderInCategory="2"
+
+		android:showAsAction="never"
+
+		android:checkable="true"
+
+		android:title="3D"/>
+	<item
+
+		android:id="@+id/Interpolate"
+
+		android:orderInCategory="2"
+
+		android:showAsAction="never"
+
+		android:checkable="true"
+
+		android:title="Interpolate"/>
+	<item
+
+		android:id="@+id/advanced"
+
+		android:orderInCategory="2"
+
+		android:showAsAction="never"
+
+		android:title="Advanced.."/>
+
+	<!--출처: http://itmir.tistory.com/409 [미르의 IT 정복기]-->
+</menu>

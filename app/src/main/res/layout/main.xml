@@ -1,11 +1,73 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center">
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center">
 
-    <TextView
-        android:text="@string/hello_world"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+	<FrameLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent">
+
+		<ImageView
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:src="@android:drawable/ic_delete"
+			android:id="@+id/ivAnatomy"/>
+
+		<LinearLayout
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:orientation="vertical">
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="horizontal"
+				android:gravity="top"
+				android:layout_gravity="top">
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:text="Large Text"
+					android:gravity="center"
+					android:id="@+id/tvDesc"
+					android:shadowColor="#FFFFFF"
+					android:shadowDx="1.0"
+					android:shadowDy="1.0"
+					android:shadowRadius="1.0"
+					android:textIsSelectable="true"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="horizontal"
+				android:gravity="bottom"
+				android:layout_gravity="bottom">
+
+				<ImageButton
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:src="@android:drawable/ic_media_play"
+					android:layout_weight="1.0"
+					android:id="@+id/ibPlay"/>
+
+				<ImageButton
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:src="@android:drawable/ic_menu_close_clear_cancel"
+					android:layout_weight="1.0"
+					android:id="@+id/ibDirection"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</FrameLayout>
 
 </LinearLayout>
+

@@ -3,5 +3,8 @@
 
     <string name="app_name">VKH</string>
     <string name="hello_world">Hello world!</string>
-
+	<string name="item_male">Male whole body</string>
+	<string name="item_female">Female whole body</string>
+	<string name="item_male_head">Male head</string>
+	<string name="item_female_pelvis">Female pelvis</string>
 </resources>
